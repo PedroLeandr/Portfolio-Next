@@ -1,11 +1,15 @@
+import Header from "@/components/header/Header";
 import ChangeTheme from "@/components/changeTheme/ChangeTheme";
-import Landing from "@/components/landing/Landing";
+import Me from "@/components/me/Me";
 
 export default function Home() {
   return (
     <div>
-      <Landing />
       <ChangeTheme />
+      <Header />
+      <main>
+        <Me />
+      </main>
     </div>
   );
 }
