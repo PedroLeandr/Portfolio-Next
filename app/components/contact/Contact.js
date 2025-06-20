@@ -5,7 +5,7 @@ export default function Contact() {
          <div className="contact section" id="contact">
             <div className="title">
                 <h1>Contact</h1>
-                <p>If you'd like to get in touch, feel free to use any of the methods below:</p>
+                <p>If you&apos;d like to get in touch, feel free to use any of the methods below:</p>
             </div>
             <div className="cards">
                 <div className="contactinfo">
